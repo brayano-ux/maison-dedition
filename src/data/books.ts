@@ -25,8 +25,8 @@ export const books: Book[] = [
     description: "Amina, une petite fille curieuse, decouvre que le vrai secret du grand baobab est la soif d'apprendre. Une histoire sur la curiosite, le courage et la sagesse africaine.",
     tags: ["Aventure", "Sagesse", "Curiosite"],
     image: "/book-amina.jpg",
-    pricePDF: 2500,
-    pricePrint: 3500,
+    pricePDF: 1500,
+    pricePrint: 2500,
   },
   {
     id: 2,
@@ -39,8 +39,8 @@ export const books: Book[] = [
     description: "La tortue est petite mais tres maligne ! Suivez ses aventures pleines de ruses a travers la foret africaine. Une fable sur la perseverance et l'intelligence.",
     tags: ["Aventure", "Animaux", "Fable"],
     image: "/book-tortue.jpg",
-    pricePDF: 2500,
-    pricePrint: 3500,
+    pricePDF: 1500,
+    pricePrint: 2500,
   },
   {
     id: 3,
@@ -53,8 +53,8 @@ export const books: Book[] = [
     description: "Kofi reve de devenir le meilleur pecheur du lac. Il apprend chaque matin aupres de son grand-pere. Une histoire sur le travail, la patience et la transmission familiale.",
     tags: ["Village", "Famille", "Lac"],
     image: "/book-pecheur.jpg",
-    pricePDF: 2500,
-    pricePrint: 3500,
+    pricePDF: 1500,
+    pricePrint: 2500,
   },
   {
     id: 4,
@@ -67,8 +67,8 @@ export const books: Book[] = [
     description: "Cet ane ne veut jamais travailler ! Mais un jour il comprend que la paresse ne mene nulle part. Une fable drole et educative sur la valeur du travail.",
     tags: ["Fable", "Animaux", "Travail"],
     image: "/book-ane.jpg",
-    pricePDF: 2500,
-    pricePrint: 3500,
+    pricePDF: 1500,
+    pricePrint: 2500,
   },
   {
     id: 5,
@@ -81,8 +81,8 @@ export const books: Book[] = [
     description: "Le vieux Ngando connait toutes les histoires du village. Un livre sur la transmission, les racines et la memoire africaine.",
     tags: ["Village", "Traditions", "Memoire"],
     image: "/book-vieux.jpg",
-    pricePDF: 2500,
-    pricePrint: 3500,
+    pricePDF: 1500,
+    pricePrint: 2500,
   },
 ];
 

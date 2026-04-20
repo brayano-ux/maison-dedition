@@ -64,7 +64,7 @@ export default function Footer() {
                 style={{ color: 'rgba(255,255,255,0.8)' }}
               >
                 <Mail className="w-4 h-4" />
-                contact@editionsbaobab.com
+                brayanodev@gmail.com
               </a>
               <div
                 className="flex items-center gap-2 font-body text-[15px]"
