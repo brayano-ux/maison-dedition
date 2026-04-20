@@ -11,6 +11,7 @@ export interface Book {
   image: string;
   pricePDF: number;
   pricePrint: number;
+  purchaseLink: string;
 }
 
 export const books: Book[] = [
@@ -27,6 +28,7 @@ export const books: Book[] = [
     image: "/book-amina.jpg",
     pricePDF: 1500,
     pricePrint: 2500,
+    purchaseLink: "https://selar.com/043mj4977u",
   },
   {
     id: 2,
@@ -41,6 +43,7 @@ export const books: Book[] = [
     image: "/book-tortue.jpg",
     pricePDF: 1500,
     pricePrint: 2500,
+    purchaseLink: "https://selar.com/tortue",
   },
   {
     id: 3,
@@ -55,6 +58,7 @@ export const books: Book[] = [
     image: "/book-pecheur.jpg",
     pricePDF: 1500,
     pricePrint: 2500,
+    purchaseLink: "https://selar.com/pecheur",
   },
   {
     id: 4,
@@ -69,6 +73,7 @@ export const books: Book[] = [
     image: "/book-ane.jpg",
     pricePDF: 1500,
     pricePrint: 2500,
+    purchaseLink: "https://selar.com/ane",
   },
   {
     id: 5,
@@ -83,6 +88,7 @@ export const books: Book[] = [
     image: "/book-vieux.jpg",
     pricePDF: 1500,
     pricePrint: 2500,
+    purchaseLink: "https://selar.com/vieux",
   },
 ];
 
@@ -90,3 +96,4 @@ export const categories = ["Tous", "Aventure", "Fables", "Vie du village"];
 
 export const WHATSAPP_NUMBER = "237683260520";
 export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}`;
+export const SELAR_LINK = "https://selar.com/043mj4977u";

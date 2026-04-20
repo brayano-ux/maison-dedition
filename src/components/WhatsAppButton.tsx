@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
-import { MessageCircle } from 'lucide-react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { WHATSAPP_LINK } from '@/data/books';
 
 export default function WhatsAppButton() {
@@ -25,7 +26,7 @@ export default function WhatsAppButton() {
         className="absolute inset-0 rounded-full animate-pulse-ring"
         style={{ border: '2px solid #25D366' }}
       />
-      <MessageCircle className="w-7 h-7 text-white relative z-10" fill="white" />
+      <FontAwesomeIcon icon={faWhatsapp} className="w-7 h-7 text-white relative z-10" />
     </motion.a>
   );
 }

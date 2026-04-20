@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
-import { MessageCircle } from 'lucide-react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import type { Book } from '@/data/books';
 import { WHATSAPP_LINK } from '@/data/books';
 
@@ -86,7 +87,7 @@ export default function BookCard({ book, index = 0 }: BookCardProps) {
             style={{ backgroundColor: '#FCD116', color: '#5C3317' }}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
-            onClick={() => window.open(`${WHATSAPP_LINK}?text=${whatsappMessage}`, '_blank')}
+            onClick={() => window.open(book.purchaseLink, '_blank')}
           >
             Acheter PDF
           </motion.button>
@@ -99,7 +100,7 @@ export default function BookCard({ book, index = 0 }: BookCardProps) {
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
           >
-            <MessageCircle className="w-4 h-4" />
+            <FontAwesomeIcon icon={faWhatsapp} className="w-4 h-4" />
             <span className="hidden sm:inline">WhatsApp</span>
           </motion.a>
         </div>

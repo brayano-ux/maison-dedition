@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
-import { MessageCircle } from 'lucide-react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { WHATSAPP_LINK } from '@/data/books';
 
 export default function CTABanner() {
@@ -45,7 +46,7 @@ export default function CTABanner() {
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
         >
-          <MessageCircle className="w-5 h-5" />
+          <FontAwesomeIcon icon={faWhatsapp} className="w-5 h-5" />
           Commander maintenant
         </motion.a>
       </div>

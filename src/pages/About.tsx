@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
-import { Heart, MessageCircle, Mail } from 'lucide-react';
+import { Heart, Mail } from 'lucide-react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import KenteColumns from '@/components/KenteColumns';
 import CTABanner from '@/components/CTABanner';
 import { WHATSAPP_LINK } from '@/data/books';
@@ -121,7 +123,7 @@ export default function About() {
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
             >
-              <MessageCircle className="w-8 h-8 text-[#25D366] mb-3" />
+              <FontAwesomeIcon icon={faWhatsapp} className="w-8 h-8 text-[#25D366] mb-3" />
               <span className="font-body text-[14px] font-semibold uppercase tracking-wider text-brown">WhatsApp</span>
               <span className="font-body text-[16px] font-semibold text-dark mt-1">+237 683 260 520</span>
             </motion.a>
