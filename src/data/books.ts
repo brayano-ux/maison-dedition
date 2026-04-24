@@ -43,7 +43,7 @@ export const books: Book[] = [
     image: "/book-tortue.jpg",
     pricePDF: 1500,
     pricePrint: 2500,
-    purchaseLink: "https://selar.com/tortue",
+    purchaseLink: "wa.me/683260520",
   },
   {
     id: 3,
@@ -58,7 +58,7 @@ export const books: Book[] = [
     image: "/book-pecheur.jpg",
     pricePDF: 1500,
     pricePrint: 2500,
-    purchaseLink: "https://selar.com/pecheur",
+    purchaseLink: "https://selar.com/1yo7o67416",
   },
   {
     id: 4,
@@ -73,7 +73,7 @@ export const books: Book[] = [
     image: "/book-ane.jpg",
     pricePDF: 1500,
     pricePrint: 2500,
-    purchaseLink: "https://selar.com/ane",
+    purchaseLink: "wa.me/683260520",
   },
   {
     id: 5,
@@ -88,7 +88,7 @@ export const books: Book[] = [
     image: "/book-vieux.jpg",
     pricePDF: 1500,
     pricePrint: 2500,
-    purchaseLink: "https://selar.com/vieux",
+    purchaseLink: "wa.me/683260520",
   },
 ];
 
