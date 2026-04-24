@@ -43,7 +43,7 @@ export const books: Book[] = [
     image: "/book-tortue.jpg",
     pricePDF: 1500,
     pricePrint: 2500,
-    purchaseLink: "wa.me/683260520",
+    purchaseLink: "https://wa.me/237683260520",
   },
   {
     id: 3,
@@ -73,7 +73,7 @@ export const books: Book[] = [
     image: "/book-ane.jpg",
     pricePDF: 1500,
     pricePrint: 2500,
-    purchaseLink: "wa.me/683260520",
+    purchaseLink: "https://wa.me/237683260520",
   },
   {
     id: 5,
@@ -88,7 +88,7 @@ export const books: Book[] = [
     image: "/book-vieux.jpg",
     pricePDF: 1500,
     pricePrint: 2500,
-    purchaseLink: "wa.me/683260520",
+    purchaseLink: "https://wa.me/237683260520",
   },
 ];
 
