@@ -78,13 +78,13 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
             >
-              <span className="font-body text-[12px] font-semibold uppercase tracking-[2px] text-[#C8891A]">
+              <span className="font-body text-[12px] font-bold uppercase tracking-[2px] text-white">
                 LIVRES POUR ENFANTS
               </span>
               <h1 className="font-heading text-[40px] sm:text-[52px] lg:text-[56px] font-bold text-dark leading-[1.1] mt-4">
                 Des histoires africaines qui enchantent vos enfants
               </h1>
-              <p className="font-body text-[18px] text-brown leading-relaxed mt-6 max-w-[480px]">
+              <p className="font-body text-[18px] text-white leading-relaxed mt-6 max-w-[480px]">
                 Decouvrez nos livres illustres camerounais pour enfants de 4 a 10 ans. Des contes, fables et aventures qui eveillent la curiosite et transmettent les valeurs africaines.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-8">

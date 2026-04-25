@@ -33,9 +33,8 @@ export default function BookCard({ book, index = 0 }: BookCardProps) {
         />
         {/* Badge */}
         <span
-          className={`absolute top-3 left-3 font-body text-[11px] font-bold uppercase px-3 py-1 rounded-full text-white ${
-            book.badge === 'Best-seller' ? 'bg-[#C8891A]' : 'bg-[#CE1126]'
-          }`}
+          className={`absolute top-3 left-3 font-body text-[11px] font-bold uppercase px-3 py-1 rounded-full text-white ${book.badge === 'Best-seller' ? 'bg-[#C8891A]' : 'bg-[#CE1126]'
+            }`}
         >
           {book.badge}
         </span>
