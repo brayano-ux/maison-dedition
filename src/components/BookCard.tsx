@@ -70,13 +70,23 @@ export default function BookCard({ book, index = 0 }: BookCardProps) {
         </div>
 
         {/* Prices */}
-        <div className="flex items-center gap-4 mt-4">
-          <span className="font-body text-[18px] font-bold text-forest">
-            {book.pricePDF.toLocaleString()} FCFA
-          </span>
-          <span className="font-body text-[14px] font-semibold text-brown line-through">
-            {book.pricePrint.toLocaleString()} FCFA
-          </span>
+        <div className="flex items-start gap-4 mt-4">
+          <div className="flex flex-col">
+            <span className="font-body text-[22px] font-bold text-forest">
+              {book.pricePDF.toLocaleString()} FCFA
+            </span>
+            <span className="font-body text-[11px] font-semibold text-black">
+              version numérique
+            </span>
+          </div>
+          <div className="flex flex-col">
+            <span className="font-body text-[22px] font-semibold text-brown">
+              {book.pricePrint.toLocaleString()} FCFA
+            </span>
+            <span className="font-body text-[11px] font-semibold text-black">
+              version physique
+            </span>
+          </div>
         </div>
 
         {/* CTA Buttons */}
